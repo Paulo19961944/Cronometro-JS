@@ -12,13 +12,13 @@
     
     
     .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding-top: 3rem;
-        background-color: #aaaaaa;
-        height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 3rem;
+      background-color: #373737;
+      height: 100vh;
     }
     
     .container h1{
@@ -92,14 +92,14 @@
     
     
     .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding-top: 3rem;
-        background-color: #aaaaaa;
-        height: 100vh;
-    }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 3rem;
+      background-color: #373737;
+      height: 100vh;
+
     
     .container h1{
         color: white;
@@ -166,13 +166,14 @@
 
 
 .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding-top: 3rem;
-    background-color: #aaaaaa;
-    height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 3rem;
+      background-color: #373737;
+      height: 100vh;
+
 }
 
 .container h1{
