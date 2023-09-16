@@ -1,53 +1,58 @@
-@media (max-width: 374px) {
-    * {
+@media (max-width: 374px){
+
+*{
         margin: 0;
         padding: 0;
+        justify-content: center;
+        align-itens: center;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
         max-width: 100%;
         max-height: 100vh;
     }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding-top: 3rem;
-        background-color: #888;
-        height: 100vh;
+    
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 3rem;
+      background-color: #373737;
+      height: 100vh;
     }
-
-    .container h1 {
-        color: white;
+    
+    .container h1{
+        color: #eee;
         font-weight: bold;
     }
-
-    .timer {
+    
+    .timer{
         display: flex;
         font-size: 55px;
         font-weight: bold;
         color: #333;
     }
-
-    .time {
+    
+    .time{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #00FF00;
+        color: #dddddd;
         min-width: 90px;
+    
     }
-
-    .separator {
-        color: #00FF00;
+    
+    .separator{
+        color: #dddddd;
         padding: 0 10px;
     }
-
-    #miliseconds {
+    
+    #miliseconds{
         font-size: 30px;
     }
-
+    
     .btn {
         padding: 10px 20px;
         font-size: 8px;
@@ -57,71 +62,77 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #535353;
-        color: white;
+        background-color: #606060;
+        color: #d9d9d9;
         font-weight: bold;
         max-width: 80px;
     }
 
-    .botoes {
+    .botoes{
         text-align: left;
         font-size: 8px;
     }
-
-    .btn:hover {
+    
+    .btn:hover{
         transform: scale(1.1);
     }
+
 }
 
-@media (max-width: 768px) {
-    * {
+
+@media (max-width: 768px){
+    *{
         margin: 0;
         padding: 0;
+        justify-content: center;
+        align-itens: center;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
         max-width: 100%;
     }
+    
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 3rem;
+      background-color: #373737;
+      height: 100vh;
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding-top: 3rem;
-        background-color: #888;
-        height: 100vh;
-    }
-
-    .container h1 {
-        color: white;
+    
+    .container h1{
+        color: #eee;
         font-weight: bold;
     }
-
-    .timer {
+    
+    .timer{
         display: flex;
         font-size: 55px;
         font-weight: bold;
         color: #333;
     }
-
-    .time {
+    
+    .time{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #00FF00;
+        color: #dddddd;
         min-width: 90px;
+    
     }
-
-    .separator {
+    
+    .separator{
         color: #00FF00;
         padding: 0 10px;
     }
-
-    #miliseconds {
+    
+    #miliseconds{
         font-size: 30px;
     }
-
+    
     .btn {
         padding: 10px 20px;
         font-size: 12px;
@@ -130,79 +141,88 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #535353;
-        color: white;
+        background-color: #606060;
+        color: #d9d9d9;
         font-weight: bold;
     }
-
-    .btn:hover {
+    
+    .btn:hover{
         transform: scale(1.1);
     }
 }
 
-@media (min-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        font-family: 'Orbitron', sans-serif;
-        max-width: 100%;
-    }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding-top: 3rem;
-        background-color: #888;
-        height: 100vh;
-    }
 
-    .container h1 {
-        color: white;
-        font-weight: bold;
-    }
+@media (min-width: 768px){
 
-    .timer {
-        display: flex;
-        font-size: 55px;
-        font-weight: bold;
-        color: #333;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-itens: center;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    max-width: 100%;
+}
 
-    .time {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-        color: #00FF00;
-        min-width: 90px;
-    }
 
-    .separator {
-        color: #00FF00;
-        padding: 0 10px;
-    }
+.container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 3rem;
+      background-color: #373737;
+      height: 100vh;
 
-    #miliseconds {
-        font-size: 30px;
-    }
+}
 
-    .btn {
-        padding: 10px 20px;
-        font-size: 18px;
-        font-weight: bold;
-        border-radius: 8px;
-        cursor: pointer;
-        border: 1px solid #ccc;
-        transition: all 0.2s ease-in-out;
-        background-color: #535353;
-        color: white;
-        font-weight: bold;
-    }
+.container h1{
+    color: #eee;
+    font-weight: bold;
+}
 
-    .btn:hover {
-        transform: scale(1.1);
-    }
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #dddddd;
+    min-width: 90px;
+
+}
+
+.separator{
+    color: #00FF00;
+    padding: 0 10px;
+}
+
+#miliseconds{
+    font-size: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+    background-color: #606060;
+    color: #d9d9d9;
+    font-weight: bold;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
 }
