@@ -57,7 +57,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #606060;
+        background-color: #535353;
         color: white;
         font-weight: bold;
         max-width: 80px;
@@ -130,7 +130,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #606060;
+        background-color: #535353;
         color: white;
         font-weight: bold;
     }
@@ -197,7 +197,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #606060;
+        background-color: #535353;
         color: white;
         font-weight: bold;
     }
