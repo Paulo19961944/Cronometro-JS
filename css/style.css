@@ -37,13 +37,13 @@
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #222222;
+        color: #111111;
         min-width: 90px;
     
     }
     
     .separator{
-        color: #222222;
+        color: #111111;
         padding: 0 10px;
     }
     
@@ -107,7 +107,7 @@
         display: flex;
         font-size: 55px;
         font-weight: bold;
-        color: #222222;
+        color: #111111;
     }
     
     .time{
@@ -115,7 +115,7 @@
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #222222;
+        color: #111111;
         min-width: 90px;
     
     }
@@ -188,13 +188,13 @@
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    color: #222222;
+    color: #111111;
     min-width: 90px;
 
 }
 
 .separator{
-    color: #222222;
+    color: #111111;
     padding: 0 10px;
 }
 
