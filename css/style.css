@@ -16,12 +16,12 @@
       align-items: center;
       gap: 2rem;
       padding-top: 3rem;
-      background-color: #777777;
+      background-color: #dddddd;
       height: 100vh;
     }
     
     .container h1{
-        color: #111111;
+        color: #000000;
         font-weight: bold;
     }
     
@@ -37,13 +37,13 @@
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #111111;
+        color: #272626;
         min-width: 90px;
     
     }
     
     .separator{
-        color: #111111;
+        color: #272626;
         padding: 0 10px;
     }
     
@@ -60,7 +60,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #222222;
+        background-color: #000000;
         color: #eeeeee;
         font-weight: bold;
         max-width: 80px;
@@ -94,12 +94,12 @@
       align-items: center;
       gap: 2rem;
       padding-top: 3rem;
-      background-color: #777777;
+      background-color: #dddddd;
       height: 100vh;
     }
     
     .container h1{
-        color: #111111;
+        color: #000000;
         font-weight: bold;
     }
     
@@ -115,13 +115,13 @@
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #111111;
+        color: #272626;
         min-width: 90px;
     
     }
     
     .separator{
-        color: #222222;
+        color: #272626;
         padding: 0 10px;
     }
     
@@ -137,7 +137,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #222222;
+        background-color: #000000;
         color: #eeeeee;
         font-weight: bold;
     }
@@ -166,13 +166,13 @@
       align-items: center;
       gap: 2rem;
       padding-top: 3rem;
-      background-color: #777777;
+      background-color: #dddddd;
       height: 100vh;
 
 }
 
 .container h1{
-    color: #111111;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -188,13 +188,13 @@
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    color: #111111;
+    color: #272626;
     min-width: 90px;
 
 }
 
 .separator{
-    color: #111111;
+    color: #272626;
     padding: 0 10px;
 }
 
@@ -210,7 +210,7 @@
     cursor: pointer;
     border: 1px solid #ccc;
     transition: all 0.2s ease-in-out;
-    background-color: #222222;
+    background-color: #000000;
     color: #eeeeee;
     font-weight: bold;
 }
