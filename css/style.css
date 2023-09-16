@@ -16,12 +16,12 @@
       align-items: center;
       gap: 2rem;
       padding-top: 3rem;
-      background-color: #eeeeee;
+      background-color: #aaaaaa;
       height: 100vh;
     }
     
     .container h1{
-        color: #555555;
+        color: #111111;
         font-weight: bold;
     }
     
@@ -37,13 +37,13 @@
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #666666;
+        color: #222222;
         min-width: 90px;
     
     }
     
     .separator{
-        color: #666666;
+        color: #222222;
         padding: 0 10px;
     }
     
@@ -60,7 +60,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #606060;
+        background-color: #222222;
         color: #eeeeee;
         font-weight: bold;
         max-width: 80px;
@@ -94,12 +94,12 @@
       align-items: center;
       gap: 2rem;
       padding-top: 3rem;
-      background-color: #eeeeee;
+      background-color: #aaaaaa;
       height: 100vh;
     }
     
     .container h1{
-        color: #555555;
+        color: #111111;
         font-weight: bold;
     }
     
@@ -107,7 +107,7 @@
         display: flex;
         font-size: 55px;
         font-weight: bold;
-        color: #333;
+        color: #222222;
     }
     
     .time{
@@ -115,13 +115,13 @@
         align-items: center;
         justify-content: center;
         margin-right: 10px;
-        color: #666666;
+        color: #222222;
         min-width: 90px;
     
     }
     
     .separator{
-        color: #666666;
+        color: #222222;
         padding: 0 10px;
     }
     
@@ -137,7 +137,7 @@
         cursor: pointer;
         border: 1px solid #ccc;
         transition: all 0.2s ease-in-out;
-        background-color: #606060;
+        background-color: #222222;
         color: #eeeeee;
         font-weight: bold;
     }
@@ -166,13 +166,13 @@
       align-items: center;
       gap: 2rem;
       padding-top: 3rem;
-      background-color: #eeeeee;
+      background-color: #aaaaaa;
       height: 100vh;
 
 }
 
 .container h1{
-    color: #555555;
+    color: #111111;
     font-weight: bold;
 }
 
@@ -188,13 +188,13 @@
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    color: #666666;
+    color: #222222;
     min-width: 90px;
 
 }
 
 .separator{
-    color: #666666;
+    color: #222222;
     padding: 0 10px;
 }
 
@@ -210,7 +210,7 @@
     cursor: pointer;
     border: 1px solid #ccc;
     transition: all 0.2s ease-in-out;
-    background-color: #606060;
+    background-color: #222222;
     color: #eeeeee;
     font-weight: bold;
 }
