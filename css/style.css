@@ -2,7 +2,6 @@
     * {
         margin: 0;
         padding: 0;
-        align-itens: center;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
         max-width: 100%;
@@ -77,8 +76,7 @@
 @media (max-width: 768px) {
     * {
         margin: 0;
-        padding: 0;        
-        align-itens: center;
+        padding: 0;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
         max-width: 100%;
@@ -146,7 +144,6 @@
     * {
         margin: 0;
         padding: 0;
-        align-itens: center;
         text-align: center;
         font-family: 'Orbitron', sans-serif;
         max-width: 100%;
