@@ -41,7 +41,6 @@
         margin-right: 10px;
         color: #00FF00;
         min-width: 90px;
-    
     }
     
     .separator{
@@ -100,7 +99,7 @@
       padding-top: 3rem;
       background-color: #373737;
       height: 100vh;
-
+    }
     
     .container h1{
         color: white;
