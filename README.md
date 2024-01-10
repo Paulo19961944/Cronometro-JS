@@ -4,6 +4,10 @@ Cronômetro feito ao meu estilo que captura os dados do botão e sempre que eles
 
 Existem também funções de formatação dos valores para que dê o valor desejado também. Alem do CSS para estilizar o Front-End e o HTML bem organizado para fazer a estrutura também.
 
+Segue Código Abaixo
+
+[https://paulo19961944.github.io/Cronometro-JS/](https://paulo19961944.github.io/Cronometro-JS/)
+
 # Responsividade
 
 Foi feito também um ajuste de responsividade do site, onde ele se ajusta a qualquer tipo de tela também
