@@ -1,75 +1,83 @@
-const minutesEl = document.querySelector("#minutes");
-const secondsEl = document.querySelector("#seconds");
-const milisecondsEl = document.querySelector("#miliseconds");
-const startBtn = document.querySelector("#startBtn");
-const pauseBtn = document.querySelector("#pauseBtn");
-const resumeBtn = document.querySelector("#resumeBtn");
-const resetBtn = document.querySelector("#resetBtn");
+let miliSecondsValue = 0 // Inicia o valor de Milisegundos com 0
+let secondsValue = 0 // Inicia o valor de Segundos com 0
+let minutesValue = 0 // Inicia o valor de Minuto com 0
+let isPaused = true // Começa com isPaused como True
+let isFirstClick = false // Primeiro Clique começa como False
+let interval // Variável que armazena o intervalo
 
-let interval;
-let minutes = 0;
-let seconds = 0;
-let miliseconds = 0;
-let isPaused = true; // Alterado para iniciar pausado
-let isFirstClick = true; // Variável para controlar o primeiro clique
+// Adiciona evento ao Botão Iniciar
+startBtn.addEventListener('click', () => {
+    isPaused = false
+    isFirstClick = true
+    timer()
+})
 
-startBtn.addEventListener("click", startTimer);
-pauseBtn.addEventListener("click", pauseTimer);
-resumeBtn.addEventListener("click", resumeTimer);
-resetBtn.addEventListener("click", resetTimer);
+// Adiciona Evento ao Botão de Pausar
+pauseBtn.addEventListener('click', () => {
+    isPaused = true
+    isFirstClick = false
+    clearInterval(interval)
+})
 
-function startTimer() {
-  if (isFirstClick || resetTimer() === true) { // Verifica se é o primeiro clique ou se está pausado
-    interval = setInterval(() => {
-      if (!isPaused) {
-        miliseconds += 10;
-      }
+// Adiciona evento ao Botão de Continuar
+resumeBtn.addEventListener('click', () => {
+    isPaused = false
+    if (!isFirstClick) {
+        timer()
+    }
+    isFirstClick = true
+})
 
-      if (miliseconds === 1000) {
-        seconds++;
-        miliseconds = 0;
-      }
+// Adiciona Evento ao Botão Reset se estiver pausado
+resetBtn.addEventListener('click', () => {
+    if (isPaused) {
+        clearInterval(interval)
+        resetTimer()
+    }
+})
 
-      if (seconds === 60) {
-        minutes++;
-        seconds = 0;
-      }
-
-      minutesEl.textContent = formatTime(minutes);
-      secondsEl.textContent = formatTime(seconds);
-      milisecondsEl.textContent = formatMiliseconds(miliseconds);
-
-    }, 10);
-
-    isFirstClick = false; // Marca que o primeiro clique já ocorreu
-    isPaused = false; // Inicia o cronômetro
-  }
+// Função Cronomêtro
+function timer() {
+    if (!isPaused) {
+        interval = setInterval(() => {
+            miliSecondsValue += 10
+            if (miliSecondsValue >= 1000) {
+                miliSecondsValue = 0
+                secondsValue++
+            } else if (secondsValue >= 60) {
+                secondsValue = 0
+                minutesValue++
+            }
+            miliseconds.innerText = formatMiliSeconds(miliSecondsValue)
+            seconds.innerText = formatSeconds(secondsValue)
+            minutes.innerText = formatMinutes(minutesValue)
+        }, 10)
+    }
 }
 
-function formatTime(time) {
-  return time < 10 ? `0${time}` : time;
-}
-
-function formatMiliseconds(time) {
-  return time < 100 ? `${time}`.padStart(3, "0") : time;
-}
-
-function pauseTimer() {
-  isPaused = true;
-}
-
-function resumeTimer() {
-  isPaused = false;
-}
-
+// Função Reset
 function resetTimer() {
-  clearInterval(interval);
-  minutes = 0;
-  seconds = 0;
-  miliseconds = 0;
-  isFirstClick = true; // Reseta a variável isFirstClick para permitir o próximo clique no startBtn
+    miliSecondsValue = 0
+    secondsValue = 0
+    minutesValue = 0
+    isPaused = true
+    isFirstClick = true
+    miliseconds.innerText = '00'
+    seconds.innerText = '00'
+    minutes.innerText = '00'
+}
 
-  minutesEl.textContent = "00";
-  secondsEl.textContent = "00";
-  milisecondsEl.textContent = "000";
+// Formata os Milisegundos
+function formatMiliSeconds(miliSecondsValue) {
+    return miliSecondsValue < 100 ? `0${miliSecondsValue}` : miliSecondsValue
+}
+
+// Formata os Segundos
+function formatSeconds(secondsValue) {
+    return secondsValue < 10 ? `0${secondsValue}` : secondsValue
+}
+
+// Formata os Minutos
+function formatMinutes(minutesValue) {
+    return minutesValue < 10 ? `0${minutesValue}` : minutesValue
 }

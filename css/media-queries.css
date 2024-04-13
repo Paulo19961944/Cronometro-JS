@@ -1,0 +1,104 @@
+@media screen and (max-width: 1024px) {
+    .main-container{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 816px) {
+    .main-container{
+        width: 520px;
+    }
+
+    .main-container h1{
+        font-size: 2em;
+    }
+
+    .time{
+        min-width: 90px;
+    }
+    
+    .timer{
+        font-size: 2.8em;
+    }
+
+    .btn{
+        width: 88px;
+        height: 32px;
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .main-container{
+        margin: 0;
+        width: 320px;
+        height: 200px;
+    }
+
+    .main-container h1{
+        font-size: 1.3em;
+    }
+
+    .timer{
+        font-size: 1.7em;
+    }
+
+    .time{
+        min-width: 64px;
+    }
+
+    .separator{
+        padding: 0;
+    }
+
+    #miliseconds{
+        font-size: 0.45em;
+    }
+
+    .btn{
+        width: 56px;
+        height: 24px;
+        font-size: 0.5em;
+    }   
+}
+
+
+@media screen and (max-width: 320px) {
+    .main-container{
+        margin: 0;
+        width: 280px;
+        height: 200px;
+    }
+
+    .main-container h1{
+        font-size: 1.2em;
+    }
+
+    .timer{
+        font-size: 1.5em;
+    }
+
+    .time{
+        min-width: 56px;
+    }
+
+    .separator{
+        padding: 0;
+    }
+
+    #miliseconds{
+        font-size: 0.5em;
+    }
+
+    .btn{
+        width: 48px;
+        height: 20px;
+        font-size: 0.45em;
+    }      
+}
+
+@media screen and (min-width: 2096px) {
+    .main-container{
+        height: 400px;
+    }   
+}
