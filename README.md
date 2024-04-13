@@ -12,6 +12,9 @@ Segue Código Abaixo
 
 Foi feito também um ajuste de responsividade do site, onde ele se ajusta a qualquer tipo de tela também
 
+# Melhorias
+
+Foi adicionado Tags Semânticas do HTML para facilitar melhor a questão de Acessibilidade e também foi atualizado o JavaScript. Onde foi usado o JavaScript mais novo, com Arrow Functions, Template String e sem precisar chamar a ID especifica, que no JavaScript mais moderno não é necessário.
 
 
 Espero que Gostem :) :) :)
